@@ -1,4 +1,4 @@
-servers = ["WEB01", "DB01", "APP01"]
+servers = ["LAPTOP", "DESKTOP", "FILESERVER"]
 
 for server in servers:
     disk_free = int(input(f"Enter free disk space for {server} in GB: "))
